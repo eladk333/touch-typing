@@ -1,4 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 const FIXED = {
  ex11: [
@@ -296,6 +298,23 @@ export default function HomeRowLesson() {
 
       <h2 style={{ color: "#246", margin: "24px 0 8px" }}>הכול יחד</h2>
       <Drill title="תרגיל הקלדה 1.10" text={lines.allTogether} />
+
+        <p id="next-lesson-title" className="next-title">
+          אפשר לחזור על כל אחד מהתרגילים בשיעור ההקלדה הזה. כשתוכלו להשלים אותם בדיוק כמעט של 100%—תהיו מוכנים/ות לעבור לשיעור הבא!
+        </p>
+       <Link className="next-link" to="/lessons/top-row">
+          השיעור הבא: שורה עליונה
+        </Link>
+        <section className="lesson-footer">
+  <p>
+    אפשר לחזור על כל אחד מהתרגילים בשיעור ההקלדה הזה. כשתוכלו להשלים אותם בדיוק כמעט של 100%—
+    תהיו מוכנים/ות לעבור לשיעור הבא!
+  </p>
+  <Link className="next-link" to="/lessons/top-row">
+    השיעור הבא: שורה עליונה
+  </Link>
+</section>
     </div>
+    
   );
 }

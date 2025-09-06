@@ -92,3 +92,32 @@
   background: #dce9fd;
   transform: translateY(-1px);
 }
+
+/* ----- HomeRowLesson bottom box ----- */
+.lesson-footer {
+  margin-top: 32px;
+  background: #e6f4f9;          /* light blue */
+  border: 1px solid #b6dce9;
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+
+.lesson-footer p {
+  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #123;
+}
+
+.lesson-footer .next-link {
+  display: inline-block;
+  font-weight: 700;
+  color: #0b4fa6;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.lesson-footer .next-link:hover {
+  color: #083e84;
+  text-decoration-thickness: 2px;
+}
