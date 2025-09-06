@@ -1,0 +1,4 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Segoe UI, Arial; background: #f7fbff; }
+h1, h2 { margin: 0 0 10px; }
+p { margin: 6px 0 16px; }
